@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CheckSoftware</class>
+ <widget class="QDialog" name="CheckSoftware">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>514</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Check Software</string>
+  </property>
+  <widget class="QPushButton" name="submit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>501</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="grid">
+    <item row="4" column="0">
+     <widget class="QCheckBox" name="code">
+      <property name="text">
+       <string>Code 42</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QCheckBox" name="microsoft_teams">
+      <property name="text">
+       <string>Microsoft Teams</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QCheckBox" name="mozilla_firefox">
+      <property name="text">
+       <string>Mozilla Firefox</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QCheckBox" name="cortex">
+      <property name="text">
+       <string>Cortex XDR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QCheckBox" name="matlab">
+      <property name="text">
+       <string>MATLAB</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QCheckBox" name="microsoft_excel">
+      <property name="text">
+       <string>Microsoft Excel</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QCheckBox" name="microsoft_onedrive">
+      <property name="text">
+       <string>Microsoft OneDrive</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QCheckBox" name="putty">
+      <property name="text">
+       <string>Putty</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QCheckBox" name="citrix">
+      <property name="text">
+       <string>Citrix Reciever</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QCheckBox" name="qualys">
+      <property name="text">
+       <string>Qualys</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QCheckBox" name="bomgar">
+      <property name="text">
+       <string>Bomgar</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QCheckBox" name="zoomus">
+      <property name="text">
+       <string>zoom.us</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QCheckBox" name="microsoft_powerpoint">
+      <property name="text">
+       <string>Microsoft PowerPoint</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="sevenzip">
+      <property name="text">
+       <string>7-Zip</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="adobe">
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Adobe Acrobat CC</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QCheckBox" name="office365">
+      <property name="text">
+       <string>Office 365</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QCheckBox" name="endnote">
+      <property name="text">
+       <string>Endnote</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QCheckBox" name="google_chrome">
+      <property name="text">
+       <string>Google Chrome</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QCheckBox" name="microsoft_word">
+      <property name="text">
+       <string>Microsoft Word</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>putty</zorder>
+  <zorder>sevenzip</zorder>
+  <zorder>microsoft_teams</zorder>
+  <zorder>microsoft_powerpoint</zorder>
+  <zorder>zoomus</zorder>
+  <zorder>microsoft_excel</zorder>
+  <zorder>office365</zorder>
+  <zorder>citrix</zorder>
+  <zorder>microsoft_onedrive</zorder>
+  <zorder>cortex</zorder>
+  <zorder>bomgar</zorder>
+  <zorder>qualys</zorder>
+  <zorder>mozilla_firefox</zorder>
+  <zorder>adobe</zorder>
+  <zorder>endnote</zorder>
+  <zorder>microsoft_word</zorder>
+  <zorder>matlab</zorder>
+  <zorder>google_chrome</zorder>
+  <zorder>code</zorder>
+  <zorder>submit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
